@@ -65,9 +65,11 @@ docker --version
 kubectl version --client
 ```
 
-> If you don't have Docker, install it from [Docker's official site](https://docs.docker.com/engine/install/). For kubectl, follow the instructions at [Kubernetes documentation](https://kubernetes.io/docs/tasks/tools/).
+> If you don't have Docker and kubectl installed, follow the instructions at [Docker Engine Installation](https://docs.docker.com/engine/install/) and [Kubectl Installation](https://kubernetes.io/docs/tasks/tools/).
 
 ## Start Minikube Cluster
+
+> Installing Minikube is straightforward. Follow the instructions at [Minikube's official documentation](https://minikube.sigs.k8s.io/docs/start/).
 
 ### Start with Default Driver
 
