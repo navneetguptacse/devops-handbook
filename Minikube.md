@@ -65,7 +65,7 @@ docker --version
 kubectl version --client
 ```
 
----
+> If you don't have Docker, install it from [Docker's official site](https://docs.docker.com/engine/install/). For kubectl, follow the instructions at [Kubernetes documentation](https://kubernetes.io/docs/tasks/tools/).
 
 ## Start Minikube Cluster
 
@@ -254,3 +254,9 @@ You now have a working **single-node Kubernetes cluster** using Minikube.
 - Minikube is ideal for local development
 - kubectl is used to manage the cluster
 - Kubernetes API server is the core communication layer
+
+## References
+
+- [Docker Engine Installation](https://docs.docker.com/engine/install/)
+- [Kubectl Installation](https://kubernetes.io/docs/tasks/tools/)
+- [Minikube Documentation](https://minikube.sigs.k8s.io/docs/start/)
